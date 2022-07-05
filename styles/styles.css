@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 170vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main {
+  width: 90%;
+  height: 90%;
+  background-color: #F6655F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main__para {
+  width: 50%;
+  text-align: center;
+  margin-top: 2em;
+  font-size: .8rem;
+}
+
+.main__form {
+  width: 60%;
+  height: 90%;
+  margin-top: 1em;
+  background-color: #EB5757;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-radius: 15px;
+}
+
+.main__form__date {
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+}
+
+.main__form__date input {
+  background-color: #F6655F;
+  border-radius: 100vmax;
+  height: 25px;
+  border: none;
+  padding: 0 .5em;
+  color: white;
+}
+
+.main__form__para {
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.main__form .styles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1em;
+  width: 300px;
+}
+
+.main__form .styles label {
+  font-size: .6rem;
+}
+
+.main__form .styles input {
+  width: 100%;
+  height: 30px;
+  border-radius: 100vmax;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 .5em;
+}
+
+.main__form .styles select {
+  width: 100%;
+  height: 25px;
+  border-radius: 100vmax;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.main__form .styles select option {
+  color: black;
+}
+
+.main__form__details__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.main__form__details__buttons button {
+  padding: .5em 2em;
+  border-radius: 100vmax;
+  border: none;
+}
+
+.main__form__details__buttons .confirm {
+  color: #F1908C;
+}
+
+.main__form__details__buttons .cancel {
+  background-color: #F1908C;
+  color: white;
+}
+
+.main__form__details__policy {
+  font-size: .7rem;
+  text-align: center;
+  width: 50%;
+}
+
+.main__form__details__policy a {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .main__para {
+    width: 90%;
+  }
+  .main__form__details__buttons {
+    margin: 3em 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 140vh;
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .main__form {
+    width: 90%;
+  }
+  .main__form__details__policy {
+    width: 80%;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  body {
+    height: 170vh;
+  }
+  .main__form {
+    width: 90%;
+  }
+  .main__form__details__policy {
+    width: 80%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  body {
+    height: 170vh;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

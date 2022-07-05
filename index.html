@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIBI</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="main">
+        <p class="main__para">If you have already filled before, kindly fill again with thesame details. Thanks.</p>
+
+        <div class="main__form">
+            <p class="main__form__para">Choose date and time</p>
+            <div class="main__form__date">
+                <input type="date">
+                <input type="time">
+            </div>
+            <div class="main__form__details">
+                <div class="styles f__name">
+                    <label for="f__name">First Name</label>
+                    <input type="text" id="f__name">
+                </div>
+
+                <div class="styles l__name">
+                    <label for="l__name">Last Name</label>
+                    <input type="text" id="l__name">
+                </div>
+
+                <div class="styles gender">
+                    <label for="gender">Gender*</label>
+                    <select name="gender" id="gender">
+                        <option value=""></option>
+                        <option value="gender">Male</option>
+                        <option value="gender">Female</option>
+                    </select>
+                </div>
+
+                <div class="styles age">
+                    <label for="age">Age*</label>
+                    <input type="number" id="age">
+                </div>
+                
+                <div class="styles phone">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone">
+                </div>
+
+                <div class="styles blood">
+                    <label for="blood">Blood Type</label>
+                    <select name="blood" id="blood">
+                        <option value=""></option>
+                        <option value="blood">A+</option>
+                        <option value="blood">A-</option>
+                        <option value="blood">B-</option>
+                        <option value="blood">B+</option>
+                    </select>
+                </div>
+
+                <div class="styles sickness">
+                    <label for="sickness">Sickness</label>
+                    <input type="text" id="sickness">
+                </div>
+    
+                <div class="styles country">
+                    <label for="country">Country</label>
+                    <input type="text" id="country">
+                </div>
+
+                <div class="styles state">
+                    <label for="state">State/Province</label>
+                    <input type="text" id="state">
+                </div>
+
+                <div class="styles city">
+                    <label for="city">City/Town</label>
+                    <input type="text" id="city">
+                </div>
+    
+                <div class="styles email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+    
+                <div class="styles hospital">
+                    <label for="hospital">Location of hospital where it is needed</label>
+                    <input type="text" id="hospital">
+                </div>
+
+                <div class="styles blood_pint">
+                    <label for="blood__pint">Pint of Blood</label>
+                    <input type="text" id="blood__pint">
+                </div>
+
+                <div class="main__form__details__buttons">
+                    <button class="confirm">Confirm</button>
+                    <button class="cancel">Cancel</button>
+                </div>
+
+            </div>
+
+            <p class="main__form__details__policy">By clicking confirm, you agree to our <a href="#">User Agreement.</a> Learn how we collect, use, and share your data in our <a href="#">Privacy Policy.</a></p>
+        </div>
+    </main>
+    
+
+</body>
+</html>
