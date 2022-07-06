@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  height: 170vh;
+  min-height: 170vh;
   height: -webkit-fill-available;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
