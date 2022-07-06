@@ -184,7 +184,7 @@ body{
 
 @media screen and (max-height:750px){
     body{
-        height: 170vh;
+        min-height: 170vh;
     }
 
     .main{
@@ -200,6 +200,6 @@ body{
 
 @media screen and (max-height:700px){
     body{
-        height: 170vh;
+        min-height: 170vh;
     }
 }
