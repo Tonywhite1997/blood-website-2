@@ -16,9 +16,13 @@ $primary-clr4: #FCC0BD;
     box-sizing: border-box;
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
 body{
     height: 170vh;
-    overflow-y: scroll;
+    height: -webkit-fill-available;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: white;
@@ -40,6 +44,7 @@ body{
     }
 
     &__form{
+        // border: 3px solid green;
         width: 60%;
         height: 90%;
         margin-top: 1em;
@@ -47,6 +52,7 @@ body{
         @include flex(column);
         justify-content: flex-start;
         border-radius: 15px;
+        // overflow-y: scroll;
 
         &__date{
             margin-bottom: 1em;
